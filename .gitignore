@@ -30,3 +30,110 @@ _NCrunch*/*
 packages/*
 .nuget/*.exe
 *.sln.ide
+
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.dll
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+*.sass-cache
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+[Pp]ackages/
+
+
+#ncrunch
+*ncrunch*
+_NCrunch*/*
+*crunch*.local.xml
+
+# visual studio database projects
+*.dbmdl
+
+#Test files
+*.testsettings
+
+#Anltl4 allowed files
+!Antlr4*.*
+Antlr4.Runtime.v2*
+Antlr4.Runtime.v3*
+*.suo
+
+#allowed thirdparty libs
+![tT]hirdparty*/
+
+#allowed SQL server assemblies
+!Microsoft.SqlServer.*
+*.nupkg
+
+#NuGet
+[Pp]ackages/
+
+#TFS Issues
+[Tt]eampackages/
+
+!TestResultViewer3
+
+#ignore log directories
+[Ll]ogs
+nuget.config
+.gitattributes
+nuget.config
+
+#Ignore any merge orig files
+*.orig
+
+#Ignore NCRUNCH
+*ncrunch*
+*crunch*.local.xml
+
+
+#ignore documentation folder
+[Hh]elp/
